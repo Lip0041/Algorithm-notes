@@ -25,13 +25,13 @@
 
 3. sscanf 与 sprintf ： 在 stdio.h 中
 
-```c
-int n;
-double db;
-char str[100];
-sscanf(str, "%d%lf", &n, &db);//将字符数组中str中的内容以"%d%lf"的形式写到n和db中，从左至右
-sprintf(str, "%d", n);//把n以"%d"的形式写到str字符数组中，从右至左
-```
+   ```c
+   int n;
+   double db;
+   char str[100];
+   sscanf(str, "%d%lf", &n, &db);//将字符数组中str中的内容以"%d%lf"的形式写到n和db中，从左至右
+   sprintf(str, "%d", n);//把n以"%d"的形式写到str字符数组中，从右至左
+   ```
 
 ## 补充
 
