@@ -23,7 +23,7 @@
    //值可使用0，-1，该函数在头文件 string.h 中
    ```
 
-3. sscanf 与 sprintf ： 在 stdio.h 中
+3. `sscanf` 与 `sprintf` ： 在 `stdio.h` 中
 
    ```c
    int n;
@@ -37,7 +37,7 @@
 
 1. 浮点数比较
 
-   引入一个极小数 eps = 1e-8 来进行比较
+   引入一个极小数 `eps = 1e-8` 来进行比较
 
    ```c++
    const double eps = 1e-8;
